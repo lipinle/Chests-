@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "sp:gold_chest_entity",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/sp/gold_chest"
+      },
+      "geometry": {
+        "default": "geometry.sp_chest"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sp:diamond_chest",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "sp_diamond_chest"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.sp.diamond_chest.name"
+      },
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

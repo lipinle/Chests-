@@ -1,0 +1,56 @@
+{
+  "resource_pack_name": "storage_plus",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "sp_drawer_side": {
+      "textures": "textures/blocks/sp/drawer_side"
+    },
+    "sp_drawer_1_front_0": {
+      "textures": "textures/blocks/sp/drawer_1_front_0"
+    },
+    "sp_drawer_1_front_1": {
+      "textures": "textures/blocks/sp/drawer_1_front_1"
+    },
+    "sp_drawer_1_front_2": {
+      "textures": "textures/blocks/sp/drawer_1_front_2"
+    },
+    "sp_drawer_1_front_3": {
+      "textures": "textures/blocks/sp/drawer_1_front_3"
+    },
+    "sp_drawer_1_front_4": {
+      "textures": "textures/blocks/sp/drawer_1_front_4"
+    },
+    "sp_drawer_2_front_0": {
+      "textures": "textures/blocks/sp/drawer_2_front_0"
+    },
+    "sp_drawer_2_front_1": {
+      "textures": "textures/blocks/sp/drawer_2_front_1"
+    },
+    "sp_drawer_2_front_2": {
+      "textures": "textures/blocks/sp/drawer_2_front_2"
+    },
+    "sp_drawer_2_front_3": {
+      "textures": "textures/blocks/sp/drawer_2_front_3"
+    },
+    "sp_drawer_2_front_4": {
+      "textures": "textures/blocks/sp/drawer_2_front_4"
+    },
+    "sp_drawer_4_front_0": {
+      "textures": "textures/blocks/sp/drawer_4_front_0"
+    },
+    "sp_drawer_4_front_1": {
+      "textures": "textures/blocks/sp/drawer_4_front_1"
+    },
+    "sp_drawer_4_front_2": {
+      "textures": "textures/blocks/sp/drawer_4_front_2"
+    },
+    "sp_drawer_4_front_3": {
+      "textures": "textures/blocks/sp/drawer_4_front_3"
+    },
+    "sp_drawer_4_front_4": {
+      "textures": "textures/blocks/sp/drawer_4_front_4"
+    }
+  }
+}

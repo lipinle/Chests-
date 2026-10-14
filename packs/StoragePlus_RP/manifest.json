@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Storage Plus RP",
+    "description": "Textures & models for Storage Plus",
+    "uuid": "8c4f2e7b-1a9d-4c6e-b3f5-7e2a9d1c4f01",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      90
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "8c4f2e7b-1a9d-4c6e-b3f5-7e2a9d1c4f02",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "5b1e9c2a-6d3f-4a8e-9f1b-2c7d8e4a6b01",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

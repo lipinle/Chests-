@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sp:upgrade_netherite"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "SDS",
+      "DND",
+      "SDS"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "N": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "result": {
+      "item": "sp:upgrade_netherite",
+      "count": 1
+    }
+  }
+}

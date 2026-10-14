@@ -1,0 +1,30 @@
+{
+  "resource_pack_name": "storage_plus",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "sp_iron_chest": {
+      "textures": "textures/items/sp/iron_chest"
+    },
+    "sp_gold_chest": {
+      "textures": "textures/items/sp/gold_chest"
+    },
+    "sp_diamond_chest": {
+      "textures": "textures/items/sp/diamond_chest"
+    },
+    "sp_netherite_chest": {
+      "textures": "textures/items/sp/netherite_chest"
+    },
+    "sp_upgrade_iron": {
+      "textures": "textures/items/sp/upgrade_iron"
+    },
+    "sp_upgrade_gold": {
+      "textures": "textures/items/sp/upgrade_gold"
+    },
+    "sp_upgrade_diamond": {
+      "textures": "textures/items/sp/upgrade_diamond"
+    },
+    "sp_upgrade_netherite": {
+      "textures": "textures/items/sp/upgrade_netherite"
+    }
+  }
+}
