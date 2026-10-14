@@ -27,3 +27,6 @@ jobs:
         with:
           name: ironchests-mod
           path: build/libs/*.jar
+
+      - name: Run in-game tests
+        run: ./gradlew runGameTestServer --no-daemon
