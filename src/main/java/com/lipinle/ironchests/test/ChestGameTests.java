@@ -38,7 +38,7 @@ public final class ChestGameTests {
     public static void everyTierHasTheRightSize(GameTestHelper helper) {
         for (ChestTier tier : ChestTier.values()) {
             helper.setBlock(POS, ModBlocks.get(tier));
-            MetalChestBlockEntity chest = helper.getBlockEntity(POS);
+            MetalChestBlockEntity chest = (MetalChestBlockEntity) helper.getBlockEntity(POS);
             helper.assertTrue(chest.getTier() == tier, "Wrong tier for " + tier);
             helper.assertTrue(chest.getContainerSize() == tier.getSize(), "Wrong size for " + tier);
             helper.setBlock(POS, Blocks.AIR);
@@ -49,7 +49,7 @@ public final class ChestGameTests {
     @GameTest(template = "empty")
     public static void upgradesKeepContentsAndName(GameTestHelper helper) {
         helper.setBlock(POS, Blocks.CHEST);
-        ChestBlockEntity wood = helper.getBlockEntity(POS);
+        ChestBlockEntity wood = (ChestBlockEntity) helper.getBlockEntity(POS);
         wood.setItem(0, new ItemStack(Items.DIAMOND, 5));
         wood.setItem(26, new ItemStack(Items.APPLE, 3));
         wood.setCustomName(Component.literal("Loot"));
@@ -59,7 +59,7 @@ public final class ChestGameTests {
         upgrade(helper, ChestUpgrade.IRON_TO_GOLD);
         helper.assertBlockPresent(ModBlocks.get(ChestTier.GOLD), POS);
 
-        MetalChestBlockEntity chest = helper.getBlockEntity(POS);
+        MetalChestBlockEntity chest = (MetalChestBlockEntity) helper.getBlockEntity(POS);
         helper.assertTrue(chest.getItem(0).is(Items.DIAMOND) && chest.getItem(0).getCount() == 5, "Diamonds lost");
         helper.assertTrue(chest.getItem(26).is(Items.APPLE) && chest.getItem(26).getCount() == 3, "Apples lost");
         helper.assertTrue(chest.hasCustomName() && "Loot".equals(chest.getName().getString()), "Name lost");
