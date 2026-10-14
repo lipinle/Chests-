@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ironchests:item/wood_to_copper_chest_upgrade"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "IWI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "W": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "result": {
+    "item": "ironchests:iron_chest",
+    "count": 1
+  }
+}

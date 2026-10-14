@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GGG",
+    "GCG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "C": {
+      "item": "ironchests:diamond_chest"
+    }
+  },
+  "result": {
+    "item": "ironchests:crystal_chest",
+    "count": 1
+  }
+}

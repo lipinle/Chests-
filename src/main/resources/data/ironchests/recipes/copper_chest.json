@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "CWC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:ingots/copper"
+    },
+    "W": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "result": {
+    "item": "ironchests:copper_chest",
+    "count": 1
+  }
+}

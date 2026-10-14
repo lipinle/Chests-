@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IGI",
+    "GCG",
+    "IGI"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "G": {
+      "tag": "forge:glass"
+    },
+    "C": {
+      "item": "ironchests:copper_chest"
+    }
+  },
+  "result": {
+    "item": "ironchests:iron_chest",
+    "count": 1
+  }
+}

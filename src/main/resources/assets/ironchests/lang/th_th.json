@@ -1,0 +1,21 @@
+{
+  "itemGroup.ironchests": "หีบเหล็ก (Iron Chests)",
+  "block.ironchests.copper_chest": "หีบทองแดง",
+  "block.ironchests.iron_chest": "หีบเหล็ก",
+  "block.ironchests.gold_chest": "หีบทอง",
+  "block.ironchests.diamond_chest": "หีบเพชร",
+  "block.ironchests.crystal_chest": "หีบคริสตัล",
+  "block.ironchests.obsidian_chest": "หีบออบซิเดียน",
+  "block.ironchests.dirt_chest": "หีบดิน 9000!",
+  "item.ironchests.wood_to_copper_chest_upgrade": "ชุดอัปเกรดหีบไม้เป็นทองแดง",
+  "item.ironchests.wood_to_iron_chest_upgrade": "ชุดอัปเกรดหีบไม้เป็นเหล็ก",
+  "item.ironchests.copper_to_iron_chest_upgrade": "ชุดอัปเกรดหีบทองแดงเป็นเหล็ก",
+  "item.ironchests.iron_to_gold_chest_upgrade": "ชุดอัปเกรดหีบเหล็กเป็นทอง",
+  "item.ironchests.gold_to_diamond_chest_upgrade": "ชุดอัปเกรดหีบทองเป็นเพชร",
+  "item.ironchests.diamond_to_crystal_chest_upgrade": "ชุดอัปเกรดหีบเพชรเป็นคริสตัล",
+  "item.ironchests.diamond_to_obsidian_chest_upgrade": "ชุดอัปเกรดหีบเพชรเป็นออบซิเดียน",
+  "tooltip.ironchests.upgrade.from_to": "อัปเกรด %s เป็น %s",
+  "tooltip.ironchests.upgrade.how": "ย่อตัว + คลิกขวาที่หีบเพื่อใช้",
+  "message.ironchests.upgrade.in_use": "มีคนกำลังเปิดหีบนี้อยู่!",
+  "message.ironchests.upgrade.double_chest": "หีบคู่ไม่สามารถอัปเกรดได้"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GGG",
+    "GCG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "C": {
+      "item": "ironchests:iron_chest"
+    }
+  },
+  "result": {
+    "item": "ironchests:gold_chest",
+    "count": 1
+  }
+}

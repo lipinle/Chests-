@@ -1,0 +1,21 @@
+{
+  "itemGroup.ironchests": "Iron Chests",
+  "block.ironchests.copper_chest": "Copper Chest",
+  "block.ironchests.iron_chest": "Iron Chest",
+  "block.ironchests.gold_chest": "Gold Chest",
+  "block.ironchests.diamond_chest": "Diamond Chest",
+  "block.ironchests.crystal_chest": "Crystal Chest",
+  "block.ironchests.obsidian_chest": "Obsidian Chest",
+  "block.ironchests.dirt_chest": "DirtChest 9000!",
+  "item.ironchests.wood_to_copper_chest_upgrade": "Wood to Copper Chest Upgrade",
+  "item.ironchests.wood_to_iron_chest_upgrade": "Wood to Iron Chest Upgrade",
+  "item.ironchests.copper_to_iron_chest_upgrade": "Copper to Iron Chest Upgrade",
+  "item.ironchests.iron_to_gold_chest_upgrade": "Iron to Gold Chest Upgrade",
+  "item.ironchests.gold_to_diamond_chest_upgrade": "Gold to Diamond Chest Upgrade",
+  "item.ironchests.diamond_to_crystal_chest_upgrade": "Diamond to Crystal Chest Upgrade",
+  "item.ironchests.diamond_to_obsidian_chest_upgrade": "Diamond to Obsidian Chest Upgrade",
+  "tooltip.ironchests.upgrade.from_to": "Upgrades %s into %s",
+  "tooltip.ironchests.upgrade.how": "Sneak + right click a chest to use",
+  "message.ironchests.upgrade.in_use": "Someone is using this chest!",
+  "message.ironchests.upgrade.double_chest": "Double chests can't be upgraded"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "OOO",
+    "OCO",
+    "OOO"
+  ],
+  "key": {
+    "O": {
+      "tag": "forge:obsidian"
+    },
+    "C": {
+      "item": "ironchests:diamond_chest"
+    }
+  },
+  "result": {
+    "item": "ironchests:obsidian_chest",
+    "count": 1
+  }
+}

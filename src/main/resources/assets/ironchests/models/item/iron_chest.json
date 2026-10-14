@@ -1,0 +1,6 @@
+{
+  "parent": "ironchests:item/chest_template",
+  "textures": {
+    "particle": "minecraft:block/iron_block"
+  }
+}
